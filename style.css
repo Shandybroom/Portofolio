@@ -2,7 +2,10 @@
     padding-top: 2rem;
     background-color: #34495e;
     color: white;
+    background-image: url("img/jumbo.png");
+    background-size: cover;
 }
+a { color: #FFFF; }
 
 .footerbackground{
     background-color:  #34495e;
