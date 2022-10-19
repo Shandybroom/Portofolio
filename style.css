@@ -35,7 +35,7 @@ a { color: #FFFF; }
   margin-bottom: 10px;
 }
 /* From uiverse.io by @joe-watson-sbf */
-/* .container {
+.container {
     position: relative;
     font-family: sans-serif;
   }
@@ -44,7 +44,7 @@ a { color: #FFFF; }
     content: "";
     background-color: #fab5704c;
     position: absolute;
-  } */
+  } 
   
   /* .container::before {
     border-radius: 50%;
@@ -61,7 +61,7 @@ a { color: #FFFF; }
     top: 8%;
     right: 5%;
     border: 1px solid;
-  } 
+  }  */
   
   .container .box {
     width: auto;
@@ -111,6 +111,6 @@ a { color: #FFFF; }
   
   .container .box:hover {
     box-shadow: 0px 0px 20px 2px #0808083f;
-  } */
+  }
 
   
