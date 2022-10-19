@@ -6,15 +6,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
-.jumbotron{
-    padding-top: 2rem;
-    /* background-color: #34495e; */
-    color: white;
-    background-image: url("img/jumbo.png");
-    background-image: url("img/jumbo.png"), linear-gradient( 30deg, #95a5a6, #2c3e50);
-    background-size: cover;
-}
 a { color: #FFFF; }
 
 .footerbackground{
@@ -36,8 +27,15 @@ a { color: #FFFF; }
     width: 100px;
 }
 
+.bulat{
+  border-radius: 50%;
+}
+
+.navbar { 
+  margin-bottom: 10px;
+}
 /* From uiverse.io by @joe-watson-sbf */
-.container {
+/* .container {
     position: relative;
     font-family: sans-serif;
   }
@@ -46,28 +44,28 @@ a { color: #FFFF; }
     content: "";
     background-color: #fab5704c;
     position: absolute;
-  }
+  } */
   
-  .container::before {
+  /* .container::before {
     border-radius: 50%;
     width: 6rem;
     height: 6rem;
     top: 30%;
     right: 7%;
-  }
+  } */
   
-  .container::after {
+  /* .container::after {
     content: "";
     position: absolute;
     height: 3rem;
     top: 8%;
     right: 5%;
     border: 1px solid;
-  }
+  } 
   
   .container .box {
-    width: 65em;
-    height: 17em;
+    width: auto;
+    height: auto;
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.074);
     border: 1px solid rgba(255, 255, 255, 0.222);
@@ -112,8 +110,7 @@ a { color: #FFFF; }
   }
   
   .container .box:hover {
-    box-shadow: 0px 0px 20px 1px #ffbb763f;
-    border: 1px solid rgba(255, 255, 255, 0.454);
-  }
+    box-shadow: 0px 0px 20px 2px #0808083f;
+  } */
 
   
