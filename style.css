@@ -46,23 +46,6 @@ a { color: #FFFF; }
     position: absolute;
   } 
   
-  /* .container::before {
-    border-radius: 50%;
-    width: 6rem;
-    height: 6rem;
-    top: 30%;
-    right: 7%;
-  } */
-  
-  /* .container::after {
-    content: "";
-    position: absolute;
-    height: 3rem;
-    top: 8%;
-    right: 5%;
-    border: 1px solid;
-  }  */
-  
   .container .box {
     width: auto;
     height: auto;
@@ -112,5 +95,17 @@ a { color: #FFFF; }
   .container .box:hover {
     box-shadow: 0px 0px 20px 2px #0808083f;
   }
+  
+  .floating {
+    width: 100%;
+    border-radius: .5rem;
+    transition: .3s ease;
+   }
+
+   .floating:hover {
+    background-color: #0808083f;
+    transform: translateY(-25%);
+    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+   }
 
   
