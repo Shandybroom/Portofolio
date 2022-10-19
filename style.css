@@ -48,7 +48,7 @@ a { color: #FFFF; }
     position: absolute;
   }
   
-  /* .container::before {
+  .container::before {
     border-radius: 50%;
     width: 6rem;
     height: 6rem;
@@ -63,7 +63,7 @@ a { color: #FFFF; }
     top: 8%;
     right: 5%;
     border: 1px solid;
-  } */
+  }
   
   .container .box {
     width: 65em;
