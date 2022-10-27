@@ -100,7 +100,7 @@ body{
   }
   
   .container .box:hover {
-    box-shadow: 0px 0px 20px 2px #0808083f;
+    box-shadow: 0px 0px 20px 10px #fbf8f83f;
   }
   
   .floating {
